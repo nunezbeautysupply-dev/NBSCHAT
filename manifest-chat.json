@@ -1,0 +1,14 @@
+{
+  "name": "NBS Chat",
+  "short_name": "NBS Chat",
+  "description": "Chat privado con Nunez Beauty Supply",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0B1020",
+  "theme_color": "#0B1020",
+  "icons": [
+    { "src": "icono-chat.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icono-chat-192.png", "sizes": "192x192", "type": "image/png" }
+  ]
+}
