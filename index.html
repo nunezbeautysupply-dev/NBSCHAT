@@ -273,7 +273,10 @@ function abrirMiCatalogo(){
     avisito('Pídele a NBS tu link del catálogo');
     return;
   }
-  location.href = '../CATALOGO2/catalogo.html?c=' + encodeURIComponent(YO.cid);
+  // 🩹 -19 sep- Direccion COMPLETA: el chat ya vive en su propio techo
+  // (workers.dev) y el catalogo sigue en nbs2.pages.dev — el camino
+  // relativo de antes buscaba el catalogo donde ya no esta.
+  location.href = 'https://nbs2.pages.dev/CATALOGO2/catalogo.html?c=' + encodeURIComponent(YO.cid);
 }
 
 // ── Cositas ──
